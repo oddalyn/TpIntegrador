@@ -1,0 +1,165 @@
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+#navId{
+    background-color: #353A40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    width: 100%;
+   
+}
+
+
+/* 
+No se por que ninguna de estas dos funcionaron 
+
+div ul li a {
+    color: white;
+}
+
+.nav-link{
+    color:white;
+} */
+
+#divImg{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 1400px;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.4);
+}
+
+
+
+#codoAcodo{
+    max-width: 120px;
+    max-height: 120px;
+    margin-right: 2rem;
+}
+
+
+.wrapper {
+    position: relative;
+}
+
+.bottomright {
+    position: absolute;
+    margin-top: 10px;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+    color:white;
+}
+
+.bottomright p {
+    margin:0%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bottomright h3{
+    display: flex;
+    justify-content: flex-end;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    filter:brightness(50%)
+}
+
+
+ footer{
+    margin-top: 3rem;
+ }
+
+ .col{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+ }
+
+#botones{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.container .container{
+    display:flex ; 
+    justify-content:center;
+}
+
+.container .container p, #convierteteEnOrador p {
+    margin-bottom: 0%;
+    font-size: 12px;
+    margin-top: 1rem;
+}
+
+#containerFooter{
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+
+}
+
+#containerFooterImg{
+    position: relative;
+}
+
+#hawaii{
+    height: auto;
+    width: auto;
+}
+
+#baText{
+    width: 100%;
+    margin-right: 0;
+    display: block;
+    color: white;
+    background-color: #353A40;
+}
+
+#baText h2{
+    margin-top:1rem;
+}
+
+.btn{
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+
+#botones{
+    margin-left: 1.5rem ;
+}
+
+form{
+    margin-top: 3rem;
+}
+
+#convierteteEnOrador{
+    text-align: center;
+}
+
+footer{
+    margin-top: 3rem;
+    background-color: darkslategray;
+    padding: 2rem;
+}
+
+
+
